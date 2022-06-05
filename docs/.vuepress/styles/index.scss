@@ -1,0 +1,49 @@
+:root {
+  --nprogress-color: #63e2b7ff;
+  --nprogress-z-index: 1031;
+  --c-scrollbar-color: rgba(0, 0, 0, 0.25);
+  --c-scrollbar-color-hover: rgba(0, 0, 0, 0.4);
+  --code-bg-color: #e9ebec;
+  --blockquote-bg-color: #f6f7f7;
+  --code-hl-bg-color: rgb(226, 226, 226);
+  --c-img-border: #eaecef;
+  --c-mask-background-color: #fff;
+  --c-border-color: rgb(239, 239, 245);
+}
+
+// plugin-nprogress
+#nprogress {
+  --nprogress-color: #63e2b7ff;
+}
+
+html.dark {
+  // background colors
+  --c-bg: #000;
+  --c-scrollbar-color: rgba(255, 255, 255, 0.2);
+  --c-scrollbar-color-hover: rgba(255, 255, 255, 0.3);
+  --code-bg-color: #282c34;
+  --blockquote-bg-color: #3e4047;
+  --code-hl-bg-color: rgba(0, 0, 0, 0.2);
+  --c-img-border: #3e4047;
+  --c-mask-background-color: #101015;
+  --c-border-color: rgba(255, 255, 255, 0.09);
+}
+
+.medium-zoom--opened {
+  img {
+    border-radius: 3px;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.n-scrollbar > .n-scrollbar-container {
+  scroll-behavior: smooth;
+}
+
+.n-back-top {
+  z-index: 3;
+}
